@@ -1,0 +1,6 @@
+El SQL nativo es útil cuando se necesita escribir una consulta compleja que JPQL no admite o
+cuando se necesita optimizar el rendimiento de las consultas .
+Tres situaciones donde es necesario usar SQL en vez de JPQL nativo serían:
+	-Para funciones específicas del sistema de base de datos que no están soportadas por JPQL(por ejemplo, GROUP_CONCAT).
+	- Para JOINS complejos que JPQL no maneja bien.
+	-Para interactuar con la estructura interna de la base de datos, por ejemplo para crear índices o ejecutar procedimientos almacenados.
